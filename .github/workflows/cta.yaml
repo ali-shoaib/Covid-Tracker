@@ -27,6 +27,12 @@ jobs:
       uses: actions/setup-node@v2-beta
       with:
         node-version: 12
+    - name: Installing yarn
+      uses: borales/actions-yarn@v2.0.0
+      with:
+        cmd: install # will run `yarn install` command
+    - name: Build CTA
+      run: yarn build
     - name: Install surge
       run: npm install -g surge
     - name: Surge deploying
