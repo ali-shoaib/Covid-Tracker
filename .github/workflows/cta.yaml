@@ -30,7 +30,7 @@ jobs:
     - name: Installing yarn
       uses: borales/actions-yarn@v2.0.0
       with:
-          cmd: install # will run `yarn install` command
+        cmd: install # will run `yarn install` command
     - name: Build CTA
       run: yarn build 
     - name: Install surge
