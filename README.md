@@ -1,3 +1,6 @@
 # Covid-Tracker
 
-A covid-tracker app made by using react.js, material UI and chart.js. It tracks cases from all over the world regarding covid (e.g deaths, infected, recovered, etc). 
+- Developed by using react hooks. 
+- Material UI and chart.js for styling. 
+- Covid19 API is used for covid cases.
+- It tracks cases from all over the world (e.g deaths, infected, recovered, etc). 
